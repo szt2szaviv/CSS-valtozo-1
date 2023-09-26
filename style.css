@@ -1,0 +1,64 @@
+:root{
+    --lila:rgb(136, 42, 136);
+    --szurkeskek: rgb(177, 201, 193);
+    --kek: rgb(20, 219, 203);
+    --sotet_kek: rgb(30, 97, 141);
+    --malyva: rgb(192, 101, 116);
+    --vilagos_rozsaszin: rgb(238, 189, 197);
+    --sotet_rozsaszin: rgb(219, 62, 185);
+    --rozsaszin:rgb(228, 133, 141);
+}
+
+#box{
+width: 100%;
+height: 25%;
+display: flex;
+flex-direction: row;
+}
+
+#egy{
+    background-color: var(--lila);
+    margin: 5px;
+    height: 25%;
+}
+#ketto{
+    background-color: var(--szurkeskek);
+    margin: 5px;
+    height: 25%;
+}
+
+#harom{
+    background-color: var(--kek);
+    margin: 5px;
+    height: 25%;
+}
+
+#negy{
+    background-color: var(--sotet_kek);
+    margin: 5px;
+    height: 25%;
+}
+
+#ot{
+    background-color: var(--malyva);
+    margin: 5px;
+    height: 25%;
+}
+
+#hat{
+    background-color: var(--vilagos_rozsaszin);
+    margin: 5px;
+    height: 25%;
+}
+
+#het{
+    background-color: var(--sotet_rozsaszin);
+    margin: 5px;
+    height: 25%;
+}
+
+#nyolc{
+    background-color: var(--rozsaszin);
+    margin: 5px;
+    height: 25%;
+}
